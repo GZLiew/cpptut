@@ -2,7 +2,7 @@
 
 #cmake -G "CodeLite - Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug
 
-cmake .
+cmake . -DCMAKE_BUILD_TYPE=Debug
 
 cmake --build .
 
